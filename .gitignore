@@ -1,0 +1,10 @@
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.tar
+*.zip
+__pycache__/
+wandb/
+.DS_Store

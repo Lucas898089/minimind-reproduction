@@ -1,0 +1,10 @@
+total 3.3G
+-rwxrwx--- 1 hlihw hlihw  141 May 19 10:37 dataset.md
+-rw-rw---- 1 hlihw hlihw  52M May 19 11:36 dpo.jsonl
+-rw-rw---- 1 hlihw hlihw    0 May 19 10:37 __init__.py
+-rw-rw---- 1 hlihw hlihw  11K May 19 10:37 lm_dataset.py
+-rw-rw---- 1 hlihw hlihw  23K May 19 11:36 lora_identity.jsonl
+-rw-rw---- 1 hlihw hlihw 1.2G May 19 11:35 pretrain_t2t_mini.jsonl
+drwxrwx--- 2 hlihw hlihw   86 May 19 11:42 __pycache__
+-rw-rw---- 1 hlihw hlihw  23M May 19 11:36 rlaif.jsonl
+-rw-rw---- 1 hlihw hlihw 1.7G May 19 11:36 sft_t2t_mini.jsonl

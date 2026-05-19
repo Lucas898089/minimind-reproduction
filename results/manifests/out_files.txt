@@ -1,0 +1,4 @@
+total 375M
+-rw-rw---- 1 hlihw hlihw 132M May 19 14:43 full_sft_h800_2h_768.pth
+-rw-rw---- 1 hlihw hlihw 132M May 19 13:03 pretrain_h800_2h_768.pth
+-rw-rw---- 1 hlihw hlihw  64M May 19 11:44 smoke_pretrain_512.pth
