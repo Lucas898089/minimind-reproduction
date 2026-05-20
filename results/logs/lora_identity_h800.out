@@ -1,0 +1,95 @@
+===== JOB INFO =====
+Tue May 19 10:57:04 PM HKT 2026
+dgx-56
+Tue May 19 22:57:04 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.158.01             Driver Version: 570.158.01     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H800                    On  |   00000000:DF:00.0 Off |                    0 |
+| N/A   38C    P0             72W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Python 3.10.20
+torch 2.7.1+cu126
+cuda True
+gpu NVIDIA H800
+===== LORA START =====
+Model Params: 63.91M
+Trainable Params: 63.912M
+LLM 总参数量: 64.305 M
+LoRA 参数量: 0.393 M
+LoRA 参数占比: 0.61%
+Epoch:[1/10](1/6), loss: 2.2235, logits_loss: 2.2235, aux_loss: 0.0000, lr: 0.00009994, epoch_time: 0.0min
+Epoch:[1/10](2/6), loss: 2.3808, logits_loss: 2.3808, aux_loss: 0.0000, lr: 0.00009975, epoch_time: 0.0min
+Epoch:[1/10](3/6), loss: 2.3359, logits_loss: 2.3359, aux_loss: 0.0000, lr: 0.00009945, epoch_time: 0.0min
+Epoch:[1/10](4/6), loss: 2.2991, logits_loss: 2.2991, aux_loss: 0.0000, lr: 0.00009902, epoch_time: 0.0min
+Epoch:[1/10](5/6), loss: 2.4792, logits_loss: 2.4792, aux_loss: 0.0000, lr: 0.00009847, epoch_time: 0.0min
+Epoch:[1/10](6/6), loss: 2.4530, logits_loss: 2.4530, aux_loss: 0.0000, lr: 0.00009780, epoch_time: 0.0min
+Epoch:[2/10](1/6), loss: 2.3061, logits_loss: 2.3061, aux_loss: 0.0000, lr: 0.00009701, epoch_time: 0.0min
+Epoch:[2/10](2/6), loss: 2.3520, logits_loss: 2.3520, aux_loss: 0.0000, lr: 0.00009611, epoch_time: 0.0min
+Epoch:[2/10](3/6), loss: 2.3336, logits_loss: 2.3336, aux_loss: 0.0000, lr: 0.00009510, epoch_time: 0.0min
+Epoch:[2/10](4/6), loss: 2.4394, logits_loss: 2.4394, aux_loss: 0.0000, lr: 0.00009397, epoch_time: 0.0min
+Epoch:[2/10](5/6), loss: 2.2722, logits_loss: 2.2722, aux_loss: 0.0000, lr: 0.00009274, epoch_time: 0.0min
+Epoch:[2/10](6/6), loss: 2.4136, logits_loss: 2.4136, aux_loss: 0.0000, lr: 0.00009141, epoch_time: 0.0min
+Epoch:[3/10](1/6), loss: 2.3310, logits_loss: 2.3310, aux_loss: 0.0000, lr: 0.00008997, epoch_time: 0.0min
+Epoch:[3/10](2/6), loss: 2.2409, logits_loss: 2.2409, aux_loss: 0.0000, lr: 0.00008844, epoch_time: 0.0min
+Epoch:[3/10](3/6), loss: 2.4898, logits_loss: 2.4898, aux_loss: 0.0000, lr: 0.00008682, epoch_time: 0.0min
+Epoch:[3/10](4/6), loss: 2.2138, logits_loss: 2.2138, aux_loss: 0.0000, lr: 0.00008511, epoch_time: 0.0min
+Epoch:[3/10](5/6), loss: 2.3395, logits_loss: 2.3395, aux_loss: 0.0000, lr: 0.00008332, epoch_time: 0.0min
+Epoch:[3/10](6/6), loss: 2.2681, logits_loss: 2.2681, aux_loss: 0.0000, lr: 0.00008145, epoch_time: 0.0min
+Epoch:[4/10](1/6), loss: 2.2746, logits_loss: 2.2746, aux_loss: 0.0000, lr: 0.00007951, epoch_time: 0.0min
+Epoch:[4/10](2/6), loss: 2.4050, logits_loss: 2.4050, aux_loss: 0.0000, lr: 0.00007750, epoch_time: 0.0min
+Epoch:[4/10](3/6), loss: 2.2949, logits_loss: 2.2949, aux_loss: 0.0000, lr: 0.00007543, epoch_time: 0.0min
+Epoch:[4/10](4/6), loss: 2.3134, logits_loss: 2.3134, aux_loss: 0.0000, lr: 0.00007330, epoch_time: 0.0min
+Epoch:[4/10](5/6), loss: 2.1847, logits_loss: 2.1847, aux_loss: 0.0000, lr: 0.00007113, epoch_time: 0.0min
+Epoch:[4/10](6/6), loss: 2.3490, logits_loss: 2.3490, aux_loss: 0.0000, lr: 0.00006891, epoch_time: 0.0min
+Epoch:[5/10](1/6), loss: 2.2729, logits_loss: 2.2729, aux_loss: 0.0000, lr: 0.00006665, epoch_time: 0.0min
+Epoch:[5/10](2/6), loss: 2.2168, logits_loss: 2.2168, aux_loss: 0.0000, lr: 0.00006436, epoch_time: 0.0min
+Epoch:[5/10](3/6), loss: 2.3885, logits_loss: 2.3885, aux_loss: 0.0000, lr: 0.00006204, epoch_time: 0.0min
+Epoch:[5/10](4/6), loss: 2.2415, logits_loss: 2.2415, aux_loss: 0.0000, lr: 0.00005970, epoch_time: 0.0min
+Epoch:[5/10](5/6), loss: 2.1621, logits_loss: 2.1621, aux_loss: 0.0000, lr: 0.00005736, epoch_time: 0.0min
+Epoch:[5/10](6/6), loss: 2.2106, logits_loss: 2.2106, aux_loss: 0.0000, lr: 0.00005500, epoch_time: 0.0min
+Epoch:[6/10](1/6), loss: 2.2864, logits_loss: 2.2864, aux_loss: 0.0000, lr: 0.00005264, epoch_time: 0.0min
+Epoch:[6/10](2/6), loss: 2.0908, logits_loss: 2.0908, aux_loss: 0.0000, lr: 0.00005030, epoch_time: 0.0min
+Epoch:[6/10](3/6), loss: 2.1795, logits_loss: 2.1795, aux_loss: 0.0000, lr: 0.00004796, epoch_time: 0.0min
+Epoch:[6/10](4/6), loss: 2.2598, logits_loss: 2.2598, aux_loss: 0.0000, lr: 0.00004564, epoch_time: 0.0min
+Epoch:[6/10](5/6), loss: 2.1728, logits_loss: 2.1728, aux_loss: 0.0000, lr: 0.00004335, epoch_time: 0.0min
+Epoch:[6/10](6/6), loss: 2.3107, logits_loss: 2.3107, aux_loss: 0.0000, lr: 0.00004109, epoch_time: 0.0min
+Epoch:[7/10](1/6), loss: 2.2435, logits_loss: 2.2435, aux_loss: 0.0000, lr: 0.00003887, epoch_time: 0.0min
+Epoch:[7/10](2/6), loss: 2.2310, logits_loss: 2.2310, aux_loss: 0.0000, lr: 0.00003670, epoch_time: 0.0min
+Epoch:[7/10](3/6), loss: 2.1479, logits_loss: 2.1479, aux_loss: 0.0000, lr: 0.00003457, epoch_time: 0.0min
+Epoch:[7/10](4/6), loss: 2.3332, logits_loss: 2.3332, aux_loss: 0.0000, lr: 0.00003250, epoch_time: 0.0min
+Epoch:[7/10](5/6), loss: 2.2475, logits_loss: 2.2475, aux_loss: 0.0000, lr: 0.00003049, epoch_time: 0.0min
+Epoch:[7/10](6/6), loss: 1.9706, logits_loss: 1.9706, aux_loss: 0.0000, lr: 0.00002855, epoch_time: 0.0min
+Epoch:[8/10](1/6), loss: 2.2170, logits_loss: 2.2170, aux_loss: 0.0000, lr: 0.00002668, epoch_time: 0.0min
+Epoch:[8/10](2/6), loss: 2.1850, logits_loss: 2.1850, aux_loss: 0.0000, lr: 0.00002489, epoch_time: 0.0min
+Epoch:[8/10](3/6), loss: 2.2545, logits_loss: 2.2545, aux_loss: 0.0000, lr: 0.00002318, epoch_time: 0.0min
+Epoch:[8/10](4/6), loss: 2.2223, logits_loss: 2.2223, aux_loss: 0.0000, lr: 0.00002156, epoch_time: 0.0min
+Epoch:[8/10](5/6), loss: 2.2067, logits_loss: 2.2067, aux_loss: 0.0000, lr: 0.00002003, epoch_time: 0.0min
+Epoch:[8/10](6/6), loss: 2.1094, logits_loss: 2.1094, aux_loss: 0.0000, lr: 0.00001859, epoch_time: 0.0min
+Epoch:[9/10](1/6), loss: 2.2932, logits_loss: 2.2932, aux_loss: 0.0000, lr: 0.00001726, epoch_time: 0.0min
+Epoch:[9/10](2/6), loss: 2.1451, logits_loss: 2.1451, aux_loss: 0.0000, lr: 0.00001603, epoch_time: 0.0min
+Epoch:[9/10](3/6), loss: 1.9967, logits_loss: 1.9967, aux_loss: 0.0000, lr: 0.00001490, epoch_time: 0.0min
+Epoch:[9/10](4/6), loss: 2.2136, logits_loss: 2.2136, aux_loss: 0.0000, lr: 0.00001389, epoch_time: 0.0min
+Epoch:[9/10](5/6), loss: 2.0665, logits_loss: 2.0665, aux_loss: 0.0000, lr: 0.00001299, epoch_time: 0.0min
+Epoch:[9/10](6/6), loss: 2.2549, logits_loss: 2.2549, aux_loss: 0.0000, lr: 0.00001220, epoch_time: 0.0min
+Epoch:[10/10](1/6), loss: 2.1569, logits_loss: 2.1569, aux_loss: 0.0000, lr: 0.00001153, epoch_time: 0.0min
+Epoch:[10/10](2/6), loss: 2.1980, logits_loss: 2.1980, aux_loss: 0.0000, lr: 0.00001098, epoch_time: 0.0min
+Epoch:[10/10](3/6), loss: 2.2567, logits_loss: 2.2567, aux_loss: 0.0000, lr: 0.00001055, epoch_time: 0.0min
+Epoch:[10/10](4/6), loss: 2.1245, logits_loss: 2.1245, aux_loss: 0.0000, lr: 0.00001025, epoch_time: 0.0min
+Epoch:[10/10](5/6), loss: 2.0973, logits_loss: 2.0973, aux_loss: 0.0000, lr: 0.00001006, epoch_time: 0.0min
+Epoch:[10/10](6/6), loss: 2.1823, logits_loss: 2.1823, aux_loss: 0.0000, lr: 0.00001000, epoch_time: 0.0min
+===== LORA DONE =====
+Tue May 19 10:57:51 PM HKT 2026
