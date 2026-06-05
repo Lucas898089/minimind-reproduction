@@ -1,0 +1,2 @@
+sample_count,bad_schema,empty_user,empty_assistant,has_think_tag,mostly_non_zh,repeat_gt030,unclosed_code,total_tokens_gt768,total_tokens_gt1024,think_ratio,non_zh_ratio,repeat_gt030_ratio,gt768_ratio,gt1024_ratio,tokens_mean,tokens_p50,tokens_p90,tokens_p95,tokens_p99,zh_ratio_mean,repeat_ratio_mean
+20000,0,0,0,1,23,1353,0,5475,6,5e-05,0.00115,0.06765,0.27375,0.0003,672.999,691,842,887,955,0.8682,0.0874

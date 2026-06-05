@@ -20,6 +20,7 @@ from trainer.trainer_utils import init_model
 MODELS = {
     "pretrain": {"weight": "pretrain_h800_2h", "lora": None},
     "sft": {"weight": "full_sft_h800_2h", "lora": None},
+    "sft_len1024": {"weight": "full_sft_len1024_h800_2h", "lora": None},
     "lora": {"weight": "full_sft_h800_2h", "lora": "lora_identity_h800"},
     "dpo": {"weight": "dpo_h800_2h", "lora": None},
 }
@@ -180,7 +181,7 @@ def main():
 
     rows = []
 
-    for model_name in ["pretrain", "sft", "lora", "dpo"]:
+    for model_name in ["pretrain", "sft", "sft_len1024", "lora", "dpo"]:
         print(f"===== CE diagnostics: {model_name} =====", flush=True)
         model, _ = load_eval_model(model_name, args.hidden_size, args.layers, device)
 
@@ -218,7 +219,7 @@ def main():
     ref_model, _ = load_eval_model("sft", args.hidden_size, args.layers, device)
     ref_model.eval()
 
-    for model_name in ["sft", "lora", "dpo"]:
+    for model_name in ["sft", "sft_len1024", "lora", "dpo"]:
         print(f"===== DPO diagnostics: {model_name} =====", flush=True)
         model, _ = load_eval_model(model_name, args.hidden_size, args.layers, device)
         result = eval_dpo_preference(model, ref_model, dpo_loader, device, dtype, args.beta)

@@ -1,0 +1,14 @@
+{
+  "scanned": 21461,
+  "kept": 20000,
+  "target": 20000,
+  "scan_limit": 100000,
+  "output": "/home/hlihw/minimind/dataset/clean_sft_zh_20k.jsonl",
+  "reject": {
+    "repeat_gt030": 1428,
+    "assistant_too_short": 6,
+    "mostly_non_zh": 27
+  },
+  "duplicate": 0,
+  "bad_schema": 0
+}
