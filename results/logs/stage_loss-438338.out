@@ -1,0 +1,62 @@
+Fri Jun  5 08:45:38 AM HKT 2026
+dgx-09
+Fri Jun  5 08:45:38 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.158.01             Driver Version: 570.158.01     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H800                    On  |   00000000:D1:00.0 Off |                    0 |
+| N/A   32C    P0             68W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading tokenizer from SFT model...
+Model Params: 63.91M
+Trainable Params: 63.912M
+===== CE diagnostics: pretrain =====
+Model Params: 63.91M
+Trainable Params: 63.912M
+pretrain pretrain_ce loss=1.9200 ppl=6.82
+pretrain sft_assistant_ce loss=3.6886 ppl=39.99
+===== CE diagnostics: sft =====
+Model Params: 63.91M
+Trainable Params: 63.912M
+sft pretrain_ce loss=2.0348 ppl=7.65
+sft sft_assistant_ce loss=1.3642 ppl=3.91
+===== CE diagnostics: lora =====
+Model Params: 63.91M
+Trainable Params: 63.912M
+lora pretrain_ce loss=2.0343 ppl=7.65
+lora sft_assistant_ce loss=1.3660 ppl=3.92
+===== CE diagnostics: dpo =====
+Model Params: 63.91M
+Trainable Params: 63.912M
+dpo pretrain_ce loss=2.0349 ppl=7.65
+dpo sft_assistant_ce loss=1.3627 ppl=3.91
+===== Loading SFT reference for DPO diagnostics =====
+Model Params: 63.91M
+Trainable Params: 63.912M
+===== DPO diagnostics: sft =====
+Model Params: 63.91M
+Trainable Params: 63.912M
+sft {'loss': 0.6931471824645996, 'chosen_accuracy': 0.603515625, 'avg_policy_margin': 96.63381987810135, 'avg_ref_margin': 96.63381987810135, 'pairs': 512}
+===== DPO diagnostics: lora =====
+Model Params: 63.91M
+Trainable Params: 63.912M
+lora {'loss': 0.7069072555750608, 'chosen_accuracy': 0.6015625, 'avg_policy_margin': 96.63776850700378, 'avg_ref_margin': 96.76199942827225, 'pairs': 512}
+===== DPO diagnostics: dpo =====
+Model Params: 63.91M
+Trainable Params: 63.912M
+dpo {'loss': 0.6949295941740274, 'chosen_accuracy': 0.603515625, 'avg_policy_margin': 96.60495874285698, 'avg_ref_margin': 96.60870164632797, 'pairs': 512}
+saved /home/hlihw/minimind_project/results/diagnostics/stage_loss_diagnostics.csv
+Fri Jun  5 08:46:35 AM HKT 2026

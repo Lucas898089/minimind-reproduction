@@ -1,0 +1,12 @@
+model,metric_group,loss,ppl,tokens_or_pairs,chosen_accuracy,avg_policy_margin,avg_ref_margin
+pretrain,pretrain_ce,1.919985,6.820855,104685,,,
+pretrain,sft_assistant_ce,3.688643,39.990539,282857,,,
+sft,pretrain_ce,2.034777,7.650543,104685,,,
+sft,sft_assistant_ce,1.364206,3.912615,283088,,,
+lora,pretrain_ce,2.034305,7.646939,104685,,,
+lora,sft_assistant_ce,1.36604,3.919799,282836,,,
+dpo,pretrain_ce,2.034859,7.651176,104685,,,
+dpo,sft_assistant_ce,1.362695,3.906707,283269,,,
+sft,dpo_preference,0.693147,,512,0.603516,96.63382,96.63382
+lora,dpo_preference,0.706907,,512,0.601562,96.637769,96.761999
+dpo,dpo_preference,0.69493,,512,0.603516,96.604959,96.608702
