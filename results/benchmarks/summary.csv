@@ -1,0 +1,5 @@
+task,model,total,correct,accuracy
+tnews,pretrain,200,7,0.035
+tnews,sft,200,4,0.02
+tnews,lora,200,4,0.02
+tnews,dpo,200,4,0.02

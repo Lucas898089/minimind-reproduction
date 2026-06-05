@@ -1,0 +1,13 @@
+Saved: /home/hlihw/minimind_project/results/benchmarks/summary.csv
+{'task': 'afqmc', 'model': 'pretrain', 'total': 200, 'correct': 102, 'accuracy': 0.51}
+{'task': 'afqmc', 'model': 'sft', 'total': 200, 'correct': 131, 'accuracy': 0.655}
+{'task': 'afqmc', 'model': 'lora', 'total': 200, 'correct': 130, 'accuracy': 0.65}
+{'task': 'afqmc', 'model': 'dpo', 'total': 200, 'correct': 131, 'accuracy': 0.655}
+{'task': 'tnews', 'model': 'pretrain', 'total': 200, 'correct': 0, 'accuracy': 0.0}
+{'task': 'tnews', 'model': 'sft', 'total': 200, 'correct': 0, 'accuracy': 0.0}
+{'task': 'tnews', 'model': 'lora', 'total': 200, 'correct': 0, 'accuracy': 0.0}
+{'task': 'tnews', 'model': 'dpo', 'total': 200, 'correct': 0, 'accuracy': 0.0}
+{'task': 'ocnli', 'model': 'pretrain', 'total': 200, 'correct': 75, 'accuracy': 0.375}
+{'task': 'ocnli', 'model': 'sft', 'total': 200, 'correct': 80, 'accuracy': 0.4}
+{'task': 'ocnli', 'model': 'lora', 'total': 200, 'correct': 80, 'accuracy': 0.4}
+{'task': 'ocnli', 'model': 'dpo', 'total': 200, 'correct': 80, 'accuracy': 0.4}

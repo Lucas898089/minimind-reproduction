@@ -1,0 +1,5 @@
+Saved: /home/hlihw/minimind_project/results/benchmarks/summary.csv
+{'task': 'tnews', 'model': 'pretrain', 'total': 200, 'correct': 7, 'accuracy': 0.035}
+{'task': 'tnews', 'model': 'sft', 'total': 200, 'correct': 4, 'accuracy': 0.02}
+{'task': 'tnews', 'model': 'lora', 'total': 200, 'correct': 4, 'accuracy': 0.02}
+{'task': 'tnews', 'model': 'dpo', 'total': 200, 'correct': 4, 'accuracy': 0.02}

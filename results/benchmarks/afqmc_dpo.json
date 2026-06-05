@@ -1,0 +1,411 @@
+{
+  "task": "afqmc",
+  "model": "dpo",
+  "split": "validation",
+  "max_samples": 200,
+  "total": 200,
+  "correct": 131,
+  "accuracy": 0.655,
+  "rows": [
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -5.015625
+        ],
+        [
+          "1",
+          "B",
+          -5.3203125
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.80859375
+        ],
+        [
+          "1",
+          "B",
+          -5.5703125
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "1",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.4609375
+        ],
+        [
+          "1",
+          "B",
+          -5.3125
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.97265625
+        ],
+        [
+          "1",
+          "B",
+          -5.5
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.94140625
+        ],
+        [
+          "1",
+          "B",
+          -6.203125
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "1",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.48046875
+        ],
+        [
+          "1",
+          "B",
+          -5.70703125
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -5.05078125
+        ],
+        [
+          "1",
+          "B",
+          -5.97265625
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -5.1796875
+        ],
+        [
+          "1",
+          "B",
+          -6.00390625
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -5.27734375
+        ],
+        [
+          "1",
+          "B",
+          -5.80859375
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -5.703125
+        ],
+        [
+          "1",
+          "B",
+          -5.8359375
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "1",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.98828125
+        ],
+        [
+          "1",
+          "B",
+          -5.39453125
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -5.0078125
+        ],
+        [
+          "1",
+          "B",
+          -5.87109375
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "1",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.98828125
+        ],
+        [
+          "1",
+          "B",
+          -5.81640625
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.953125
+        ],
+        [
+          "1",
+          "B",
+          -5.1875
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.296875
+        ],
+        [
+          "1",
+          "B",
+          -4.796875
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -5.08203125
+        ],
+        [
+          "1",
+          "B",
+          -6.7578125
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.6328125
+        ],
+        [
+          "1",
+          "B",
+          -5.625
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.54296875
+        ],
+        [
+          "1",
+          "B",
+          -5.9921875
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.6640625
+        ],
+        [
+          "1",
+          "B",
+          -6.55859375
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "dpo",
+      "gold": "1",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.20703125
+        ],
+        [
+          "1",
+          "B",
+          -5.3203125
+        ]
+      ]
+    }
+  ]
+}

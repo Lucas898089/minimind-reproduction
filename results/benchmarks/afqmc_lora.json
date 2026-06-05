@@ -1,0 +1,411 @@
+{
+  "task": "afqmc",
+  "model": "lora",
+  "split": "validation",
+  "max_samples": 200,
+  "total": 200,
+  "correct": 130,
+  "accuracy": 0.65,
+  "rows": [
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.890625
+        ],
+        [
+          "1",
+          "B",
+          -5.14453125
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.703125
+        ],
+        [
+          "1",
+          "B",
+          -5.3671875
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "1",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.41015625
+        ],
+        [
+          "1",
+          "B",
+          -5.20703125
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.875
+        ],
+        [
+          "1",
+          "B",
+          -5.3125
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.8203125
+        ],
+        [
+          "1",
+          "B",
+          -6.02734375
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "1",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.38671875
+        ],
+        [
+          "1",
+          "B",
+          -5.55078125
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.890625
+        ],
+        [
+          "1",
+          "B",
+          -5.76171875
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -5.03515625
+        ],
+        [
+          "1",
+          "B",
+          -5.80078125
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -5.15625
+        ],
+        [
+          "1",
+          "B",
+          -5.58984375
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -5.61328125
+        ],
+        [
+          "1",
+          "B",
+          -5.6640625
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "1",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.8828125
+        ],
+        [
+          "1",
+          "B",
+          -5.1953125
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.90625
+        ],
+        [
+          "1",
+          "B",
+          -5.69921875
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "1",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.88671875
+        ],
+        [
+          "1",
+          "B",
+          -5.62890625
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.83203125
+        ],
+        [
+          "1",
+          "B",
+          -4.96484375
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.171875
+        ],
+        [
+          "1",
+          "B",
+          -4.6015625
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.9140625
+        ],
+        [
+          "1",
+          "B",
+          -6.55859375
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.5
+        ],
+        [
+          "1",
+          "B",
+          -5.46484375
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.40625
+        ],
+        [
+          "1",
+          "B",
+          -5.79296875
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "0",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.5
+        ],
+        [
+          "1",
+          "B",
+          -6.3515625
+        ]
+      ]
+    },
+    {
+      "task": "afqmc",
+      "model": "lora",
+      "gold": "1",
+      "pred": "0",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "0",
+          "A",
+          -4.09765625
+        ],
+        [
+          "1",
+          "B",
+          -5.12890625
+        ]
+      ]
+    }
+  ]
+}

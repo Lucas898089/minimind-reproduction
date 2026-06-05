@@ -1,0 +1,511 @@
+{
+  "task": "ocnli",
+  "model": "pretrain",
+  "split": "validation",
+  "max_samples": 200,
+  "total": 200,
+  "correct": 75,
+  "accuracy": 0.375,
+  "rows": [
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "neutral",
+      "pred": "neutral",
+      "pred_letter": "B",
+      "correct": true,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -1.4892578125
+        ],
+        [
+          "neutral",
+          "B",
+          -0.88818359375
+        ],
+        [
+          "contradiction",
+          "C",
+          -2.591796875
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "neutral",
+      "pred": "entailment",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -1.005859375
+        ],
+        [
+          "neutral",
+          "B",
+          -1.099609375
+        ],
+        [
+          "contradiction",
+          "C",
+          -3.177734375
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "entailment",
+      "pred": "entailment",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -1.0712890625
+        ],
+        [
+          "neutral",
+          "B",
+          -1.1181640625
+        ],
+        [
+          "contradiction",
+          "C",
+          -3.7890625
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "entailment",
+      "pred": "entailment",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -0.88671875
+        ],
+        [
+          "neutral",
+          "B",
+          -1.16015625
+        ],
+        [
+          "contradiction",
+          "C",
+          -2.55078125
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "neutral",
+      "pred": "entailment",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -0.97705078125
+        ],
+        [
+          "neutral",
+          "B",
+          -1.5556640625
+        ],
+        [
+          "contradiction",
+          "C",
+          -3.75
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "neutral",
+      "pred": "entailment",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -1.5751953125
+        ],
+        [
+          "neutral",
+          "B",
+          -1.6376953125
+        ],
+        [
+          "contradiction",
+          "C",
+          -2.865234375
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "contradiction",
+      "pred": "neutral",
+      "pred_letter": "B",
+      "correct": false,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -1.3291015625
+        ],
+        [
+          "neutral",
+          "B",
+          -0.8134765625
+        ],
+        [
+          "contradiction",
+          "C",
+          -3.314453125
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "entailment",
+      "pred": "entailment",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -1.0302734375
+        ],
+        [
+          "neutral",
+          "B",
+          -2.125
+        ],
+        [
+          "contradiction",
+          "C",
+          -3.57421875
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "neutral",
+      "pred": "neutral",
+      "pred_letter": "B",
+      "correct": true,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -1.4375
+        ],
+        [
+          "neutral",
+          "B",
+          -0.90673828125
+        ],
+        [
+          "contradiction",
+          "C",
+          -3.3515625
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "entailment",
+      "pred": "entailment",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -1.3349609375
+        ],
+        [
+          "neutral",
+          "B",
+          -1.8740234375
+        ],
+        [
+          "contradiction",
+          "C",
+          -2.880859375
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "entailment",
+      "pred": "entailment",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -0.98779296875
+        ],
+        [
+          "neutral",
+          "B",
+          -1.62890625
+        ],
+        [
+          "contradiction",
+          "C",
+          -3.734375
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "entailment",
+      "pred": "entailment",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -0.88623046875
+        ],
+        [
+          "neutral",
+          "B",
+          -1.06640625
+        ],
+        [
+          "contradiction",
+          "C",
+          -3.65234375
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "contradiction",
+      "pred": "entailment",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -0.92431640625
+        ],
+        [
+          "neutral",
+          "B",
+          -1.736328125
+        ],
+        [
+          "contradiction",
+          "C",
+          -2.384765625
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "neutral",
+      "pred": "entailment",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -0.84716796875
+        ],
+        [
+          "neutral",
+          "B",
+          -1.17578125
+        ],
+        [
+          "contradiction",
+          "C",
+          -2.68359375
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "entailment",
+      "pred": "entailment",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -0.9951171875
+        ],
+        [
+          "neutral",
+          "B",
+          -2.103515625
+        ],
+        [
+          "contradiction",
+          "C",
+          -3.345703125
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "neutral",
+      "pred": "entailment",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -0.982421875
+        ],
+        [
+          "neutral",
+          "B",
+          -1.693359375
+        ],
+        [
+          "contradiction",
+          "C",
+          -2.873046875
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "contradiction",
+      "pred": "neutral",
+      "pred_letter": "B",
+      "correct": false,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -1.5458984375
+        ],
+        [
+          "neutral",
+          "B",
+          -0.8974609375
+        ],
+        [
+          "contradiction",
+          "C",
+          -2.935546875
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "entailment",
+      "pred": "entailment",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -0.775390625
+        ],
+        [
+          "neutral",
+          "B",
+          -2.087890625
+        ],
+        [
+          "contradiction",
+          "C",
+          -3.095703125
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "entailment",
+      "pred": "entailment",
+      "pred_letter": "A",
+      "correct": true,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -0.96728515625
+        ],
+        [
+          "neutral",
+          "B",
+          -1.5927734375
+        ],
+        [
+          "contradiction",
+          "C",
+          -3.439453125
+        ]
+      ]
+    },
+    {
+      "task": "ocnli",
+      "model": "pretrain",
+      "gold": "contradiction",
+      "pred": "entailment",
+      "pred_letter": "A",
+      "correct": false,
+      "scores": [
+        [
+          "entailment",
+          "A",
+          -0.9169921875
+        ],
+        [
+          "neutral",
+          "B",
+          -1.9169921875
+        ],
+        [
+          "contradiction",
+          "C",
+          -3.447265625
+        ]
+      ]
+    }
+  ]
+}
