@@ -1,0 +1,46 @@
+Fri Jun  5 09:28:05 AM HKT 2026
+dgx-09
+Fri Jun  5 09:28:05 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.158.01             Driver Version: 570.158.01     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H800                    On  |   00000000:D1:00.0 Off |                    0 |
+| N/A   32C    P0             67W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Model Params: 63.91M
+Trainable Params: 63.912M
+===== sft =====
+Model Params: 63.91M
+Trainable Params: 63.912M
+{'model': 'sft', 'weight': 'full_sft_h800_2h', 'sft_assistant_loss': 1.364644, 'sft_assistant_ppl': 3.914328, 'sft_tokens': 287114, 'dpo_pref_loss': 0.693147, 'chosen_accuracy': 0.605469, 'avg_policy_margin': 123.513581, 'avg_ref_margin': 123.513581, 'pairs': 512}
+===== dpo_old_len768_beta015_lr4e8 =====
+Model Params: 63.91M
+Trainable Params: 63.912M
+{'model': 'dpo_old_len768_beta015_lr4e8', 'weight': 'dpo_h800_2h', 'sft_assistant_loss': 1.364754, 'sft_assistant_ppl': 3.914762, 'sft_tokens': 287048, 'dpo_pref_loss': 0.69571, 'chosen_accuracy': 0.609375, 'avg_policy_margin': 123.652141, 'avg_ref_margin': 123.665563, 'pairs': 512}
+===== dpo_len1024_beta015_lr4e8 =====
+Model Params: 63.91M
+Trainable Params: 63.912M
+{'model': 'dpo_len1024_beta015_lr4e8', 'weight': 'dpo_len1024_beta015_lr4e8', 'sft_assistant_loss': 1.365763, 'sft_assistant_ppl': 3.918712, 'sft_tokens': 286886, 'dpo_pref_loss': 0.697518, 'chosen_accuracy': 0.605469, 'avg_policy_margin': 123.49795, 'avg_ref_margin': 123.535163, 'pairs': 512}
+===== dpo_len1024_beta005_lr4e8 =====
+Model Params: 63.91M
+Trainable Params: 63.912M
+{'model': 'dpo_len1024_beta005_lr4e8', 'weight': 'dpo_len1024_beta005_lr4e8', 'sft_assistant_loss': 1.364897, 'sft_assistant_ppl': 3.915319, 'sft_tokens': 287042, 'dpo_pref_loss': 0.697266, 'chosen_accuracy': 0.605469, 'avg_policy_margin': 123.708474, 'avg_ref_margin': 123.740994, 'pairs': 512}
+===== dpo_len1024_beta015_lr1e7 =====
+Model Params: 63.91M
+Trainable Params: 63.912M
+{'model': 'dpo_len1024_beta015_lr1e7', 'weight': 'dpo_len1024_beta015_lr1e7', 'sft_assistant_loss': 1.364289, 'sft_assistant_ppl': 3.912939, 'sft_tokens': 287204, 'dpo_pref_loss': 0.691827, 'chosen_accuracy': 0.607422, 'avg_policy_margin': 123.643595, 'avg_ref_margin': 123.605166, 'pairs': 512}
+saved /home/hlihw/minimind_project/results/diagnostics/dpo_v2_diagnostics.csv
+Fri Jun  5 09:28:35 AM HKT 2026

@@ -1,0 +1,4 @@
+/home/hlihw/minimind_project/scripts/evaluate_dpo_v2_diagnostics.py:61: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(dtype=dtype):
+/home/hlihw/minimind_project/scripts/evaluate_dpo_v2_diagnostics.py:100: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(dtype=dtype):
